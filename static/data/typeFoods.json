@@ -1,0 +1,23 @@
+[
+  {
+    "goodsId": 1,"goodsName": "香辣鸡腿堡", "goodsImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560094459393&di=e5c1fdb3d06e43af97b2606bf0e23f8f&imgtype=0&src=http%3A%2F%2Fwww.shang360.com%2Fupload%2Farticle%2F20180815%2F48610323761534322578.jpg", "price":18
+  },
+  {
+    "goodsId": 2,"goodsName": "麦香鸡腿堡", "goodsImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560094519185&di=5200ddfbac5ed11613081486dee736e2&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201710%2F02%2F20171002210150_2McWe.jpeg", "price":15
+  },
+  {
+    "goodsId": 3,"goodsName": "美式招牌堡", "goodsImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560094519185&di=49f7ff4b2754d6ec54cb2c33981f5916&imgtype=0&src=http%3A%2F%2Fnews.89178.com%2Fupload%2Farticle%2F20180626%2F18416063311529983818.jpg", "price":15
+  },
+  {
+    "goodsId": 4,"goodsName": "贝克汉堡", "goodsImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560094519180&di=884ae4b372318adb4da80af64d81aef7&imgtype=0&src=http%3A%2F%2Fp1.meituan.net%2Fmogu%2Faa7e7c7a50997b8f199eff39831946da137511.jpg", "price":17
+  },
+  {
+    "goodsId": 5,"goodsName": "田园汉堡", "goodsImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560094459398&di=1b9ba249d0af3fa638326ccaeeec562e&imgtype=0&src=http%3A%2F%2Fimage.zhms.cn%2F2017-08%2F118c7ecc35094109b26b0506b437f821.jpg", "price":12
+  },
+  {
+    "goodsId": 6,"goodsName": "黑椒牛肉堡", "goodsImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560094459395&di=6aea9cb5937e85aa93e26d29599f1ab8&imgtype=0&src=http%3A%2F%2Fhbimg.b0.upaiyun.com%2F862ed5d565e0c9aa37f6d9b469096a25a277d83538b138-8kl1uZ_fw658", "price":18
+  },
+  {
+    "goodsId": 7,"goodsName": "双层牛肉堡", "goodsImg": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1560094459397&di=14b9f77a9a1248230b3958d4d2245c8b&imgtype=0&src=http%3A%2F%2Fattachment2.jmw.com.cn%2Fimage%2F2018%2F11%2F01%2F8da3c97a9c08ad68fe46434a191b92a9.jpg", "price":20
+  }
+]

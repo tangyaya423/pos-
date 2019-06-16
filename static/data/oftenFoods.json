@@ -1,0 +1,23 @@
+[
+  {
+    "goodsId": 1,"goodsName": "香辣鸡腿堡", "price":18
+  },
+  {
+    "goodsId": 2,"goodsName": "麦香鸡腿堡", "price":15
+  },
+  {
+    "goodsId": 3,"goodsName": "美式招牌堡", "price":15
+  },
+  {
+    "goodsId": 4,"goodsName": "贝克汉堡", "price":17
+  },
+  {
+    "goodsId": 5,"goodsName": "田园汉堡", "price":12
+  },
+  {
+    "goodsId": 6,"goodsName": "黑椒牛肉堡", "price":18
+  },
+  {
+    "goodsId": 7,"goodsName": "双层牛肉堡", "price":20
+  }
+]
