@@ -19,7 +19,7 @@
         <el-tab-pane label="汉堡">
           <div>
             <ul class="cookList">
-              <li v-for="goods in typeFoods" :key="goods.goodsId">
+              <li v-for="goods in typeFoods" :key="goods.goodsId" @click="addFoods(goods)">
                 <span class="foodImg">
                   <img :src="goods.goodsImg" width="100%" height="70%">
                 </span>
@@ -40,29 +40,44 @@
 <script>
 export default {
   name: 'Goods',
-  props: ['oftenFoods','typeFoods'],
+  props: ['oftenFoods', 'typeFoods', 'tableData'],
   data () {
     return {
       tableData: [],
+      totalCount: 0,
+      totalMoney: 0
     }
   },
   methods: {
     addFoods (goods) {
-      //判断是否已存在于订单中
-      let had = false;
-      for (let i=0;i<this.tableData.length;i++) {
-        if(this.tableData.goodsId == goods.goodsId) {
-          had = true;
+      // 判断是否已存在于订单中
+      let had = false
+      for (let i = 0; i < this.tableData.length; i++) {
+        if (this.tableData[i].goodsId === goods.goodsId) {
+          had = true
         }
       }
-      //针对不同结果进行操作
-      if(had) {
-        let arr = this.tableData.filter(a =>a.goods.goodsId == goods.goodsId);
-        arr[0].count++;
+      // 针对不同结果进行操作
+      if (had) {
+        let arr = this.tableData.filter(a => a.goodsId === goods.goodsId)
+        arr[0].count++
       } else {
-        let newData = {goodsId:goods.goodsId, goodName:goods.goodsName, price:goods.price};
-        this.tableData.push(newData);
+        let newData = {goodsId: goods.goodsId, goodName: goods.goodsName, price: goods.price, count: 1}
+        this.tableData.push(newData)
+        this.$emit('addGoods', this.tableData)
       }
+      this.total()
+    },
+     total () {
+       this.totalCount = 0
+       this.totalMoney = 0
+      this.tableData.forEach(element => {
+        this.totalCount += element.count
+        this.totalMoney = this.totalMoney + (element.count * element.price)
+        this.$emit('totalc', this.totalCount)
+        this.$emit('totalm', this.totalMoney)
+      })
+      // this.total()
     }
   }
 }

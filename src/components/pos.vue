@@ -1,7 +1,10 @@
 <template>
   <div>
     <leftnav></leftnav>
-    <pos-tools :oftenFoods="oftenFoods" :typeFoods="typeFoods"></pos-tools>
+    <pos-tools
+      :oftenFoods="oftenFoods"
+      :typeFoods="typeFoods"
+      ></pos-tools>
   </div>
 </template>
 

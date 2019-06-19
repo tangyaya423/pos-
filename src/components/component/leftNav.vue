@@ -41,7 +41,7 @@ export default {
   float left
   height 100%
   background #1D8ce0
-  border 1px solid red
+  // border 1px solid red
   .leftNav-swaper
     padding 0
     margin 0
